@@ -88,27 +88,41 @@
   color: gray;
 }
 
-#col1 a:hover {
+#about .facebook a:hover {
   color: navy;
 }
 
-#col2 a:hover {
+#about .instagram a:hover {
   color: deeppink;
 }
 
-#col3 a:hover {
-  color: cyan;
+#about .linkedin a:hover {
+  color:darkblue;
 }
 
-#col4 a:hover {
+#about .youtube a:hover {
   color: red;
 }
+
 /* school */
 #school .card-body img {
   margin-top: -80px;
-  width: 150px;
+  width: 100px;
 }
 
+#school .card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+#school .card-body p {
+  font-size: 15px;
+}
+
+/* Skills */
+#skills i[class^="bi"] {
+  font-size: 4rem;
+}
 /* Skills Carousel */
 #skill-detail .dark-overlay {
   background-color: rgba(0, 0, 0, 0.75);
@@ -217,23 +231,31 @@
   }
 }
 
+/* Experience */
+#experience {
+  overflow: hidden;
+}
 /* Portofolio */
+#portofolio {
+  overflow: hidden;
+}
+
 #portofolio i[class^="bi"] {
   font-size: 1.25rem;
 }
 
-#portofolio .card img {
+#portofolio .bingkai img {
   width: 100%;
   transform: scale(1);
   transition: all 0.3s ease-out;
 }
 
-#portofolio .card:hover img {
+#portofolio .bingkai:hover img {
   transform: scale(1.1);
   transition: all 0.3s ease-in;
 }
 
-#portofolio .card {
+#portofolio .bingkai {
   position: relative;
   overflow: hidden;
 }
@@ -257,13 +279,16 @@
   text-shadow: 1px 1px rgba(5, 5, 5, 0.5);
 }
 
-#portofolio .card:hover .img-title {
+#portofolio .bingkai:hover .img-title {
   top: 0;
   transition: all 0.5s ease-out;
 }
 
 /* Contact */
-
+#contact {
+  background: url(../img/anime\ 1.jpg);
+  background-size: cover;
+}
 
 /* Footer */
 #main-footer .col i[class^="bi"] {
@@ -282,8 +307,8 @@
   color: deeppink;
 }
 
-#main-footer .twitter a:hover {
-  color: cyan;
+#main-footer .youtube a:hover {
+  color:red;
 }
 
 #main-footer .linkedin a:hover {
